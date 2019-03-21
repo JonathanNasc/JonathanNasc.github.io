@@ -8,6 +8,7 @@
     <title>Loro - Audio livros</title>
     <style>
         body, html {
+            background-color: #f2f2f2;
             height: 100%;
             margin: 0;
             font-family: 'Raleway', sans-serif;
@@ -44,9 +45,82 @@
             padding: 0 20px;
         }
         .presentation {
+            padding-top: 20px;
             min-height: 100%;
             background-color: rgba(17, 167, 145);;
         }
+        .app-title {
+            color: #ffffff;
+        }
+        h1 {
+            font-size: 46px;
+        }
+        .app-title div {
+            font-size: 20px;
+            margin-left: 0px;
+            padding: 10px 0;
+            color: #ffffffe4;
+        }
+        .content {
+            background-color: #fff;
+            padding-top: 5px;
+            color: rgb(106, 106, 106);
+        }
+        .content a {
+            color: rgb(72, 72, 72);
+        }
+        .content h3 {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #e8e8e8;
+        }
+        .content span {
+            margin-left: 20px;
+            padding-bottom: 30px;
+            display: block;
+        }
+        #contatos {
+            padding-bottom: 50px;
+        }
+        #contatos .contact {
+            width: 100%;
+            display: table;
+        }
+        #contatos .email {
+            text-align: right;
+        }
+        #contatos span {
+            padding: 15px;
+            display: table-cell;
+        }
+        hr {
+            border: 1px solid #f4f4f4;
+        }
+        .instagram {
+            cursor: pointer;
+            background-color: #fff;
+            border: 1px solid rgb(220, 220, 220);
+            border-radius: 30px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            width: 60%;
+        }
+        .instagram img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .footer {
+            height: 250px;
+            margin-top: 20px;
+            padding: 20px;
+            color: #636363;
+        }
+        .footer div {
+            padding: 10px;
+        }
+    
     </style>
 </head>
 <body>
@@ -62,21 +136,56 @@
 
     <div class="presentation">
         <div class="container">
-            <h1></h1>
+            <div class="app-title">
+                <h1>O seu App de Audiolivros</h1>
+                <div>Todo mês novos lançamentos de ficção e não ficcão, clássicos e inéditos</div>
+                <div>Baixe e ouça gratuitamente</div>
+            </div>
         </div>
     </div>
 
-    <div id="entenda">
-        <div class="container"> entenda </div>
+    <div id="entenda" class="content">
+        <div class="container"> 
+            <h1>Perguntas frequentes</h1>
+            <div class="question">
+                <h3>Por que produzir audiolivros de qualidade e oferecê-los ao público gratuitamente?</h3>
+                <span>Por que que não? Acreditamos que assim alcaçaremos muitas pessoas e as transformaremos através de livros</span>
+            </div>
+            <div class="question">
+                <h3>Como o Loro se sustenta? É gratuito mesmo?</h3>
+                <span>Sim, é totalmente gratuito. Isso é possível graças ao apoio de empresas que acreditam no poder que os livros têm de transformar o mundo. Caso você seja uma empresa assim, <a href="#contatos">entre em contato</a> para saber como oferecer audiolivros ou anunciar os seus produtos com a gente.</span>
+            </div>
+            <div class="question">
+                <h3>O Loro respeita o direito autoral dos proprietários intelectuais?</h3>
+                <span>Sem dúvida! Nós traduzimos os livros estrangeiros em domínio público e fazemos acordos com autores em ascensão para termos o direito de produzir esse material incrível pra você.</span>
+            </div>
+        </div>
     </div>
 
-    <div id="contatos">
-        <div class="container"> entre em contato</div>
+    <div id="contatos" class="content">
+        <div class="container">
+            <h1>Entre em contato</h1>
+            <div class="contact">
+                <span>Ofereça um audiolivro ou anuncie com a gente</span>
+                <span class="email">aline@loro.app</span>
+            </div>
+            <hr />
+            <div class="contact">
+                <span>Envie o seu original para que possamos avaliar e fazer uma proposta</span>
+                <span class="email">jonathan@loro.app</span>
+            </div>
+        </div>
     </div>
     
     <div class="footer">
         <div class="container">
-            blá
+            <div class="instagram">
+                <img src="http://www.logospng.com/images/17/the-matt-taylor-experience-reveal-your-purpose-17332.png" />
+                Acompanhe os nossos lançamentos pelo Instagram
+            </div>
+            <div>O material de áudio publicado pelos aplicativos Loro não podem ser distribuídos por outros meios</div>
+            <div>Entre em contato para esclarecer qualquer dúvida</div>
+            <div>Copyright © 2019 | Loro auidiolivros</div>
         </div>
     </div>
 </body>
